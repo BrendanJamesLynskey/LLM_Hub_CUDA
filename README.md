@@ -19,6 +19,10 @@ From your first kernel to tiled matmul, streams, atomics and Nsight profiling &m
 | 09 | [Libraries &amp; Ecosystem](https://brendanjameslynskey.github.io/CUDA_09_Libraries/) | live | cuBLAS, cuDNN, Thrust, cuRAND, cuFFT &mdash; when to write custom kernels vs use optimised libraries. |
 | 10 | [Hardware Platforms for CUDA Learning](https://brendanjameslynskey.github.io/CUDA_10_Hardware/) | live | Practical buying guide &mdash; DGX Spark, consumer GPUs, cloud instances, Colab &mdash; cost, capability, recommendations. |
 
+## Related
+
+**Related site:** [GPU Kernels Explained](https://gpu-kernels-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/gpu-kernels-explained)) is an interactive companion to this series: how a GPU executes the maths, in 11 chapters each built around an animation computed by a tested GPU execution model (A100 and H100 presets, every figure sourced): the memory hierarchy, the roofline, warps and divergence, coalescing, bank conflicts, occupancy, GEMM from naive to tensor cores, reductions and warp shuffles, online softmax and FlashAttention, split-K and overlap, and quantised kernels. Every chapter links the matching slides of the CUDA series.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
